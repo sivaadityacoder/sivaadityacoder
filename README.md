@@ -1,229 +1,274 @@
 # Siva Aditya Panuganti
 
-### Security Researcher | Vulnerability Research | Application Security
+### Security Researcher | Application Security | Vulnerability Research
 
-Cybersecurity researcher and founder of **Aditya Security Labs**, focused on
-vulnerability discovery, application security, open-source security research,
-penetration testing, and security tooling.
+I am a cybersecurity researcher and the founder of [Aditya Security Labs](https://adityasecuritylabs.tech/). My work focuses on finding and understanding security weaknesses in software, especially open-source applications, web applications, APIs, and AI-powered systems.
 
-I work on finding and validating security vulnerabilities, developing
-reproducible proof-of-concepts, understanding root causes, and documenting
-security issues through responsible disclosure.
+I enjoy going beyond simply identifying a vulnerability. I try to understand the root cause, reproduce the issue in an authorized environment, demonstrate its impact safely, and explain how it can be fixed. I also document my findings and communicate them through responsible-disclosure processes.
 
-**Research Highlights:** 6 CVE assignments · 3 paid OSS security bounties · 90+ security labs
+**Research highlights:** six CVE records associated with my research · three paid OSS security bounties · 90+ practical cybersecurity labs
 
 ---
 
-## About
+## About Me
 
-My work focuses on understanding how software behaves, identifying security
-weaknesses, reproducing vulnerabilities, and communicating technical findings
-clearly to developers and security teams.
+My main interest is practical security research. I spend time reading source code, testing application behaviour, analysing authentication and authorization controls, creating safe proof-of-concepts, and writing technical reports that developers can understand.
 
-### Current areas of focus
+I am currently looking for an internship or entry-level opportunity in **application security, product security, vulnerability research, VAPT, open-source security, or AI security**. I am especially interested in working with an experienced security team where I can contribute my research background while developing stronger professional communication and engineering experience.
 
-- Vulnerability research
+### Areas I Work On
+
+- Vulnerability research and analysis
+
 - Application security
-- Web security
+
+- Web application security
+
 - API security
+
 - Open-source software security
+
 - Authentication and authorization testing
+
 - Access-control analysis
-- Penetration testing
+
 - Source-code security research
+
+- Security testing and vulnerability validation
+
 - Proof-of-concept development
+
 - Security automation
-- Vulnerability reporting
+
+- Technical vulnerability reporting
+
 - Responsible disclosure
 
 ---
 
-## Security Research
+## Selected CVE Research
 
-### Selected CVE Research
+The following records are linked directly to their NVD pages so that the affected product, vulnerability description, references, and available severity information can be checked independently.
 
-| CVE | Project | Vulnerability / Research Area |
-|---|---|---|
-| **CVE-2026-70383** | DigiDoc4-Client | Path Traversal / ZipSlip |
-| **CVE-2026-73484** | FlowiseAI | Sandbox Escape |
-| **CVE-2026-22038** | AutoGPT Platform | Sensitive Information Exposure |
-| **CVE-2025-68621** | Trilium Notes | Timing Side-Channel |
-| **CVE-2025-67146** | Enterprise Rails Management | SQL Injection |
-| **CVE-2025-67147** | Enterprise Rails Management | Authentication Bypass |
+| CVE record | Project | Vulnerability | Official proof |
+| --- | --- | --- | --- |
+| [CVE-2026-70383](https://nvd.nist.gov/vuln/detail/CVE-2026-70383) | DigiDoc4 Client | Path traversal / arbitrary file overwrite, CWE-22 | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2026-70383) |
+| [CVE-2026-73484](https://nvd.nist.gov/vuln/detail/CVE-2026-73484) | Flowise | Python sandbox escape through insufficient restrictions on native Pandas methods | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2026-73484) |
+| [CVE-2026-22038](https://nvd.nist.gov/vuln/detail/CVE-2026-22038) | AutoGPT Platform | Plaintext logging of API keys and authentication secrets in the Stagehand integration, CWE-532 | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2026-22038) |
+| [CVE-2025-68621](https://nvd.nist.gov/vuln/detail/CVE-2025-68621) | Trilium Notes | Timing attack against sync authentication that could enable HMAC recovery, CWE-208 | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2025-68621) |
+| [CVE-2025-67146](https://nvd.nist.gov/vuln/detail/CVE-2025-67146) | GYM-MANAGEMENT-SYSTEM 1.0 | Multiple SQL injection vulnerabilities with possible data extraction, authentication bypass, and database modification | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2025-67146) |
+| [CVE-2025-67147](https://nvd.nist.gov/vuln/detail/CVE-2025-67147) | Gym-Management-System-PHP 1.0 | Multiple SQL injection vulnerabilities that could enable authentication bypass, data modification, deletion, and privilege escalation | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2025-67147) |
 
-My research has involved vulnerability discovery, reproduction, validation,
-proof-of-concept development, impact analysis, technical documentation, and
-responsible disclosure.
+My research process has included vulnerability discovery, source-code analysis, reproduction, validation, proof-of-concept development, impact assessment, technical documentation, and responsible disclosure. The exact severity and impact of each issue should be read from the linked NVD or vendor advisory rather than inferred from the project name.
 
-### Research Areas
+### Vulnerability Areas
 
-- SQL Injection
-- Authentication Bypass
-- Authorization and Access Control
-- Path Traversal
-- Sandbox Escape
-- Sensitive Information Exposure
-- Timing Side-Channels
-- Web Application Security
-- API Security
-- Open-Source Software Security
+- SQL injection
+
+- Authentication and authorization weaknesses
+
+- Access-control issues
+
+- Path traversal and arbitrary file overwrite
+
+- Python sandbox escape
+
+- Sensitive information exposure through logs
+
+- Timing side-channel vulnerabilities
+
+- Web application security
+
+- API security
+
+- Open-source software security
+
+- AI and agent-security research
 
 ---
 
 ## Open-Source Security Research
 
-I actively research vulnerabilities in open-source software and report
-security issues through responsible disclosure.
+I actively study open-source projects, review how their security controls work, and report security issues to maintainers through responsible disclosure. My goal is to produce findings that are technically reproducible and useful for remediation, rather than simply demonstrating that a tool can break.
 
 ### Research Highlights
 
-- **6 CVE assignments**
-- **3 paid OSS security bounties**
-- Vulnerability research across multiple open-source projects
-- Responsible disclosure with project maintainers
-- Technical vulnerability reports
-- Proof-of-concept development
-- Web and API security testing
-- Source-code and application security research
-- 90+ practical cybersecurity labs
+- Research associated with six public CVE records
 
-My approach is to understand the root cause of a vulnerability, reproduce the
-issue reliably, demonstrate realistic impact, and provide useful technical
-information for remediation.
+- Three paid OSS security bounties
+
+- Vulnerability research across multiple open-source projects
+
+- Responsible-disclosure communication with project maintainers
+
+- Technical vulnerability reports and remediation guidance
+
+- Proof-of-concept development in authorized environments
+
+- Web and API security testing
+
+- Source-code and application-security analysis
+
+- More than 90 practical cybersecurity labs
+
+My usual approach is to understand the application or source code first, identify the security boundary, reproduce the issue safely, measure realistic impact, and provide clear technical information that helps the maintainer fix the root cause.
 
 ---
 
 ## Experience
 
-### Founder & Security Researcher
+### Founder and Security Researcher
 
-**Aditya Security Labs**
+[**Aditya Security Labs**](https://adityasecuritylabs.tech/)Independent security research and product-development initiative
 
-Independent security research initiative focused on vulnerability research,
-application security, open-source security, penetration testing, and security
-tool development.
+Aditya Security Labs is my independent cybersecurity research initiative. It is focused on vulnerability research, application security, open-source security, penetration testing, security automation, and AI-security tooling. This is independent research experience rather than conventional corporate employment.
 
-#### Responsibilities
+#### What I Work On
 
-- Research vulnerabilities in open-source software
-- Perform web and API security testing
-- Analyze application security weaknesses
-- Develop proof-of-concepts
-- Validate vulnerability impact
-- Prepare technical vulnerability reports
-- Communicate findings through responsible disclosure
-- Build security research and automation tools
-- Study emerging attack surfaces and vulnerability classes
+- Researching vulnerabilities in open-source software
 
-**Website:** [Aditya Security Labs](https://adityasecuritylabs.tech/)
+- Performing authorized web and API security testing
+
+- Reviewing application behaviour and source code
+
+- Developing safe, reproducible proof-of-concepts
+
+- Validating vulnerability impact and affected versions
+
+- Preparing technical vulnerability reports
+
+- Communicating findings through responsible disclosure
+
+- Building security-research and automation tools
+
+- Studying emerging attack surfaces, including AI systems and agent frameworks
 
 ---
 
 ## Projects
 
+### ASL V6
+
+[ASL V6 repository](https://github.com/sivaadityacoder/asl-v6)
+
+ASL V6 is an open-source AI-security assessment and red-teaming project. It explores the use of AST analysis, AI-framework detection, source-code analysis, and Docker-based runtime validation to help examine security risks in AI applications and agent systems.
+
+**Focus areas:** AI security · LLM security · source-code analysis · AST analysis · security automation · authorized validation
+
 ### VulnHunt
 
-Security research and vulnerability testing project focused on automating
-parts of the security research workflow.
+VulnHunt is a security-research and vulnerability-testing project focused on automating selected parts of the research workflow.
 
-#### Focus Areas
+**Focus areas:** reconnaissance · vulnerability discovery · security testing · vulnerability validation · proof-of-concept development · reporting
 
-- Reconnaissance
-- Vulnerability discovery
-- Security testing
-- Vulnerability validation
-- Proof-of-concept development
-- Reporting
+### CVE Research Repositories
 
-**Focus:** Security Automation · Vulnerability Research · Offensive Security
+- [CVE-2025-67146 and CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147)
 
----
+- [CVE-2025-68621](https://github.com/sivaadityacoder/CVE-2025-68621)
 
-### Aditya Security Labs
-
-Independent cybersecurity research initiative focused on:
-
-- Vulnerability research
-- Application security
-- Open-source security
-- Security tooling
-- Security automation
-- Emerging attack surfaces
-
-**Website:** [adityasecuritylabs.tech](https://adityasecuritylabs.tech/)
+- [CVE-2026-22038](https://github.com/sivaadityacoder/CVE-2026-22038)
 
 ---
 
 ## Technical Skills
 
-### Security
+### Security and Testing
 
-`Vulnerability Research`  
-`Web Security`  
-`API Security`  
-`Application Security`  
-`Penetration Testing`  
-`Authentication`  
-`Authorization`  
-`Access Control`  
-`SQL Injection`  
-`XSS`  
-`Path Traversal`  
-`Security Testing`  
-`Responsible Disclosure`
+`Vulnerability Research` · `Application Security` · `Web Security` · `API Security` · `Penetration Testing` · `Authentication` · `Authorization` · `Access Control` · `SQL Injection` · `XSS` · `Path Traversal` · `Security Testing` · `Responsible Disclosure`
 
-### Security Tools
+### Tools
 
-`Burp Suite`  
-`Nmap`  
-`Nuclei`  
-`Metasploit`  
-`Wireshark`
+`Burp Suite` · `Nmap` · `Nuclei` · `Metasploit` · `Wireshark`
 
-### Programming & Scripting
+### Programming and Scripting
 
-`Python`  
-`Bash`  
-`PowerShell`  
-`JavaScript`  
-`SQL`
+`Python` · `Bash` · `PowerShell` · `JavaScript` · `SQL`
 
-### Systems & Infrastructure
+### Systems and Infrastructure
 
-`Linux`  
-`Windows`  
-`Docker`  
-`Git`  
-`GitHub`
+`Linux` · `Windows` · `Docker` · `Git` · `GitHub`
 
-### Security Frameworks
+### Frameworks and Knowledge Areas
 
-`OWASP Top 10`  
-`OWASP API Security`  
-`MITRE ATT&CK`  
-`MITRE ATLAS`
+`OWASP Top 10` · `OWASP API Security` · `MITRE ATT&CK` · `MITRE ATLAS`
+
+These skills represent a combination of independent projects, practical labs, security research, and ongoing hands-on learning. I continue to strengthen my depth in each area through authorized testing and source-code analysis.
 
 ---
 
-## Security Research Methodology
+## My Security Research Workflow
 
-My typical research workflow follows a structured process:
+I generally follow this process when researching a security issue:
 
-```text
-Target Selection
-       ↓
-Attack Surface Mapping
-       ↓
-Application / Source Analysis
-       ↓
-Vulnerability Identification
-       ↓
-Reproduction
-       ↓
-Proof of Concept
-       ↓
-Impact Assessment
-       ↓
-Responsible Disclosure
-       ↓
-Technical Documentation
+```
+Select an authorized target
+          ↓
+Map the attack surface
+          ↓
+Review application behaviour or source code
+          ↓
+Identify a possible weakness
+          ↓
+Reproduce the issue safely
+          ↓
+Create a minimal proof of concept
+          ↓
+Assess realistic impact
+          ↓
+Report the issue responsibly
+          ↓
+Document the technical details and remediation
+```
+
+I only test systems when I have permission or when the activity is clearly covered by an authorized security program. I do not support unauthorized access, data theft, or disruptive testing.
+
+---
+
+## What I Am Looking For
+
+I am seeking an internship or entry-level role in:
+
+- Application security
+
+- Product security
+
+- Vulnerability research
+
+- VAPT and penetration testing
+
+- Open-source security
+
+- Security consulting
+
+- AI and LLM security
+
+- Security engineering
+
+I am particularly interested in teams where I can work on real security problems, learn professional assessment and reporting practices, collaborate with developers or security engineers, and improve my ability to explain technical findings clearly.
+
+If you are hiring for a security internship, junior security role, or research position, you can reach me through [LinkedIn](https://www.linkedin.com/in/sivaaditya-panuganti-b67484316/) or by visiting [Aditya Security Labs](https://adityasecuritylabs.tech/).
+
+---
+
+## Contact
+
+- **GitHub:** [github.com/sivaadityacoder](https://github.com/sivaadityacoder)
+
+- **LinkedIn:** [Siva Aditya Panuganti](https://www.linkedin.com/in/sivaaditya-panuganti-b67484316/)
+
+- **Website:** [Aditya Security Labs](https://adityasecuritylabs.tech/)
+
+## Verification References
+
+- [NVD — CVE-2026-70383](https://nvd.nist.gov/vuln/detail/CVE-2026-70383)
+
+- [NVD — CVE-2026-73484](https://nvd.nist.gov/vuln/detail/CVE-2026-73484)
+
+- [NVD — CVE-2026-22038](https://nvd.nist.gov/vuln/detail/CVE-2026-22038)
+
+- [NVD — CVE-2025-68621](https://nvd.nist.gov/vuln/detail/CVE-2025-68621)
+
+- [NVD — CVE-2025-67146](https://nvd.nist.gov/vuln/detail/CVE-2025-67146)
+
+- [NVD — CVE-2025-67147](https://nvd.nist.gov/vuln/detail/CVE-2025-67147)
