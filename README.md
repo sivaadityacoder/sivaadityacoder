@@ -6,7 +6,7 @@ I am a cybersecurity researcher and the founder of [Aditya Security Labs](https:
 
 I enjoy going beyond simply identifying a vulnerability. I try to understand the root cause, reproduce the issue in an authorized environment, demonstrate its impact safely, and explain how it can be fixed. I also document my findings and communicate them through responsible-disclosure processes.
 
-**Research highlights:** six CVE records associated with my research · three paid OSS security bounties · 90+ practical cybersecurity labs
+**Research highlights:** six CVE records associated with my research · one additional non-CVE authenticated DoS research finding · three paid OSS security bounties · 90+ practical cybersecurity labs
 
 ---
 
@@ -59,6 +59,12 @@ The following records are linked directly to their NVD pages so that the affecte
 | [CVE-2025-67146](https://nvd.nist.gov/vuln/detail/CVE-2025-67146) | GYM-MANAGEMENT-SYSTEM 1.0 | Multiple SQL injection vulnerabilities with possible data extraction, authentication bypass, and database modification | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2025-67146) |
 | [CVE-2025-67147](https://nvd.nist.gov/vuln/detail/CVE-2025-67147) | Gym-Management-System-PHP 1.0 | Multiple SQL injection vulnerabilities that could enable authentication bypass, data modification, deletion, and privilege escalation | [NVD record](https://nvd.nist.gov/vuln/detail/CVE-2025-67147) |
 
+### Additional Security Research (Non-CVE)
+
+| Research record | Project | Vulnerability | Official proof |
+| --- | --- | --- | --- |
+| Authenticated DoS / OCSP message-processing research | X-Road Security | Authenticated denial of service in OCSP message processing, CWE-400 (Uncontrolled Resource Consumption), CVSS 6.5 | Pending publication |
+
 My research process has included vulnerability discovery, source-code analysis, reproduction, validation, proof-of-concept development, impact assessment, technical documentation, and responsible disclosure. The exact severity and impact of each issue should be read from the linked NVD or vendor advisory rather than inferred from the project name.
 
 ### Vulnerability Areas
@@ -77,6 +83,8 @@ My research process has included vulnerability discovery, source-code analysis, 
 
 - Timing side-channel vulnerabilities
 
+- Authenticated denial of service and uncontrolled resource consumption
+
 - Web application security
 
 - API security
@@ -93,7 +101,7 @@ I actively study open-source projects, review how their security controls work, 
 
 ### Research Highlights
 
-- Research associated with six public CVE records
+- Research associated with six public CVE records plus additional non-CVE authenticated DoS research
 
 - Three paid OSS security bounties
 
@@ -119,9 +127,9 @@ My usual approach is to understand the application or source code first, identif
 
 ### Founder and Security Researcher
 
-[**Aditya Security Labs**](https://adityasecuritylabs.tech/)Independent security research and product-development initiative
+[**Aditya Security Labs**](https://adityasecuritylabs.tech/) Independent security research and product-development initiative
 
-Aditya Security Labs is my independent cybersecurity research initiative. It is focused on vulnerability research, application security, open-source security, penetration testing, security automation, and AI-security tooling. This is independent research experience rather than conventional corporate employment.
+Aditya Security Labs is my independent cybersecurity research initiative. It was founded by Siva Aditya Panuganti with a co-founder. It is focused on vulnerability research, application security, open-source security, penetration testing, security automation, and AI-security tooling. This is independent research experience rather than conventional corporate employment.
 
 #### What I Work On
 
